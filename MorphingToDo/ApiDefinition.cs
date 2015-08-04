@@ -5,7 +5,7 @@ using Foundation;
 using ObjCRuntime;
 using CoreGraphics;
 
-namespace MorphingToDo
+namespace MorphingLabel
 {
 	[BaseType (typeof(UILabel))]
 	interface TOMSMorphingLabel

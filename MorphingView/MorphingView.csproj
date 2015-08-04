@@ -99,9 +99,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MorphingToDo\MorphingToDo.csproj">
+    <ProjectReference Include="..\MorphingToDo\MorphingLabel.csproj">
       <Project>{7CA83A4A-10CF-414E-97D1-37A4E89FE895}</Project>
-      <Name>MorphingToDo</Name>
+      <Name>MorphingLabel</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

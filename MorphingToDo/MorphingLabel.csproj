@@ -6,9 +6,12 @@
     <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{7CA83A4A-10CF-414E-97D1-37A4E89FE895}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>MorphingToDo</RootNamespace>
+    <RootNamespace>MorphingLabel</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>MorphingToDo</AssemblyName>
+    <ReleaseVersion>1.0</ReleaseVersion>
+    <SynchReleaseVersion>false</SynchReleaseVersion>
+    <Description>Binding project https://github.com/tomknig/TOMSMorphingLabel for xamarin.ios</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

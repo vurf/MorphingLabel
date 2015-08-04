@@ -12,14 +12,14 @@ using Foundation;
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle ("MorphingToDo")]
-[assembly: AssemblyDescription ("")]
+[assembly: AssemblyTitle ("MorphingLabel")]
+[assembly: AssemblyDescription ("Binding project https://github.com/tomknig/TOMSMorphingLabel for Xamarin.iOS")]
 [assembly: AssemblyConfiguration ("")]
-[assembly: AssemblyCompany ("")]
-[assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("home")]
+[assembly: AssemblyCompany ("RangEmotions")]
+[assembly: AssemblyProduct ("package morphing label")]
+[assembly: AssemblyCopyright ("Ilya Varfolomeev")]
 [assembly: AssemblyTrademark ("")]
-[assembly: AssemblyCulture ("")]
+[assembly: AssemblyCulture ("ru")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,

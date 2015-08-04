@@ -5,7 +5,7 @@ using Foundation;
 using UIKit;
 using System.Collections.Generic;
 using CoreGraphics;
-using MorphingToDo;
+using MorphingLabel;
 
 namespace MorphingView
 {
