@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ItemType>PackagingProject</ItemType>
+    <ProjectGuid>{073EB06C-733D-4BFF-83C3-021D1A3ED533}</ProjectGuid>
+    <Packages>
+      <Packages>
+        <Package name="MorphingLabel">
+          <Builder targetFile="MorphingToDo\MorphingLabel.zip" platform="Windows" configuration="Release" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="MorphingToDo\MorphingLabel.csproj" />
+          </Builder>
+        </Package>
+        <Package name="MorphingLabel">
+          <Builder targetFile="MorphingToDo\MorphingLabel.zip" platform="Windows" configuration="Release|iPhone" ctype="BinariesZipPackageBuilder">
+            <RootEntry path="MorphingToDo\MorphingLabel.csproj" />
+          </Builder>
+        </Package>
+      </Packages>
+    </Packages>
+  </PropertyGroup>
+</Project>

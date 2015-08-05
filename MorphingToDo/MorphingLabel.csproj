@@ -42,8 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="libMorpginLabel-386-7-64-new.linkwith.cs">
-      <DependentUpon>libMorpginLabel-386-7-64-new.a</DependentUpon>
+    <Compile Include="libMorphingLabelv3.linkwith.cs">
+      <DependentUpon>libMorphingLabelv3.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +54,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libMorpginLabel-386-7-64-new.a" />
+    <ObjcBindingNativeLibrary Include="libMorphingLabelv3.a" />
   </ItemGroup>
 </Project>
