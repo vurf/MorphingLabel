@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorphingView", "MorphingView\MorphingView.csproj", "{8729C1D8-C729-4B86-9D43-6D5F272F603E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{8729C1D8-C729-4B86-9D43-6D5F272F603E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorphingLabel", "MorphingToDo\MorphingLabel.csproj", "{7CA83A4A-10CF-414E-97D1-37A4E89FE895}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorphingLabel", "MorphingLabel\MorphingLabel.csproj", "{7CA83A4A-10CF-414E-97D1-37A4E89FE895}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

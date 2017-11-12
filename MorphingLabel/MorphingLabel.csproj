@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NuGet.Build.Packaging.0.1.276\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.1.276\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -9,9 +10,18 @@
     <RootNamespace>MorphingLabel</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>MorphingToDo</AssemblyName>
-    <ReleaseVersion>1.0</ReleaseVersion>
+    <ReleaseVersion>1.0.3</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
-    <Description>Binding project https://github.com/tomknig/TOMSMorphingLabel for xamarin.ios</Description>
+    <Description>Binding project https://github.com/tomknig/TOMSMorphingLabel for Xamarin.iOS. Supported for iOS 8.0 and greater.</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>MorphingLabel</PackageId>
+    <PackageVersion>1.0.3</PackageVersion>
+    <Authors>Ilia Varfolomeev</Authors>
+    <Owners>Ilia Varfolomeev</Owners>
+    <PackageProjectUrl>https://github.com/vurf/MorphingLabel</PackageProjectUrl>
+    <Summary>https://github.com/vurf/MorphingLabel</Summary>
+    <PackageTags>xamarin ios morphinglabel</PackageTags>
+    <Title>MorphingLabel</Title>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,8 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="libMorphingLabelv3.linkwith.cs">
-      <DependentUpon>libMorphingLabelv3.a</DependentUpon>
+    <Compile Include="libMorphingLabel.linkwith.cs">
+      <DependentUpon>libMorphingLabel.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -52,8 +62,12 @@
   <ItemGroup>
     <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libMorphingLabelv3.a" />
+    <ObjcBindingNativeLibrary Include="libMorphingLabel.a" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+  <Import Project="..\packages\NuGet.Build.Packaging.0.1.276\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.1.276\build\NuGet.Build.Packaging.targets')" />
 </Project>
